@@ -1,24 +1,15 @@
-# README
+## コンテナの削除・停止
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+docker-compose down
+```
 
-Things you may want to cover:
+## コンテナの停止、削除および紐づいている名前付きボリュームの削除
 
-* Ruby version
+```
+docker-compose down -v
+```
 
-* System dependencies
+## exec
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Up 済みのコンテナ内で実行するコマンドを指定可
